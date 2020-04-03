@@ -12,12 +12,12 @@ from my custom TX to my android. Basically I am using ESP32 BLE code for this wh
 The Wiring Diagram as below:
 
 
-ESP32                   NRF24L01
------                   --------
-MOSI (GPIO23)           MOSI
-SDA  (GPIO21)           CSN
-MISO (GPIO19)           MISO
-SCK  (GPIO18)           SCK
-CE   (GPIO5 )           CE
+| ESP32 | NRF24L01 |
+| --- | --- |
+| MOSI (GPIO23) | MOSI |
+| SDA  (GPIO21) | CSN |
+| MISO (GPIO19) | MISO |
+| SCK  (GPIO18) | SCK |
+| CE   (GPIO5 ) | CE |
 
 Enjoy the code.
